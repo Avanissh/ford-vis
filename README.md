@@ -27,7 +27,7 @@ An AI-powered automotive assistant that answers vehicle-related queries using **
                           ▼
               ┌────────────────────────┐
               │  Embedding Model       │
-              │ (MiniLM - Transformer) │
+              │ (MiniLM Transformer)   │
               └─────────┬──────────────┘
                         │
                         ▼
@@ -36,25 +36,21 @@ An AI-powered automotive assistant that answers vehicle-related queries using **
               │ (Semantic Retrieval)   │
               └─────────┬──────────────┘
                         │
-             ┌──────────┴───────────┐
-             │                      │
-             ▼                      ▼
-     ┌──────────────┐      ┌────────────────┐
-     │   /search    │      │   /ask (RAG)   │
-     │  Endpoint    │      │                │
-     └──────────────┘      │  Context + LLM │
-                           └────────┬───────┘
-                                    │
-                                    ▼
-                          ┌──────────────────┐
-                          │   LLM (Groq)     │
-                          │  Grounded Answer │
-                          └──────────────────┘
+        ┌───────────────┼────────────────┐
+        │               │                │
+        ▼               ▼                ▼
 
-             ┌────────────────────────┐
-             │  /recommend Endpoint   │
-             │ Rule-Based Filtering   │
-             └────────────────────────┘
+┌──────────────┐  ┌────────────────┐  ┌────────────────────┐
+│  /search      │  │   /ask (RAG)   │  │  /recommend         │
+│  Endpoint     │  │                │  │  Rule Engine        │
+└──────────────┘  │ Context + LLM  │  │ (Structured Logic)  │
+                  └────────┬───────┘  └────────────────────┘
+                           │
+                           ▼
+                 ┌────────────────────┐
+                 │   LLM (Groq)       │
+                 │ Grounded Response  │
+                 └────────────────────┘
 ```
 
 The system follows a **modular AI pipeline**:
