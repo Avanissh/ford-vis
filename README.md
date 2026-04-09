@@ -41,9 +41,9 @@ An AI-powered automotive assistant that answers vehicle-related queries using **
         ▼               ▼                ▼
 
 ┌──────────────┐  ┌────────────────┐  ┌────────────────────┐
-│  /search      │  │   /ask (RAG)   │  │  /recommend         │
-│  Endpoint     │  │                │  │  Rule Engine        │
-└──────────────┘  │ Context + LLM  │  │ (Structured Logic)  │
+│  /search     │  │   /ask (RAG)   │  │  /recommend        │
+│  Endpoint    │  │                │  │  Rule Engine       │
+└──────────────┘  │ Context + LLM  │  │ (Structured Logic) │
                   └────────┬───────┘  └────────────────────┘
                            │
                            ▼
