@@ -1,4 +1,4 @@
-# 🚗 Ford Automotive AI Assistant
+# 🚗 Ford Automotive AI Assistant (Vehicle Intelligence System)
 
 ## 📌 Overview
 
