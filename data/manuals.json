@@ -1,0 +1,18 @@
+[
+  {
+    "issue": "Engine warning light",
+    "text": "The engine warning light indicates a problem with the engine or emission system. Immediate inspection is recommended to avoid damage."
+  },
+  {
+    "issue": "Battery warning light",
+    "text": "The battery warning light indicates an issue with the charging system. This may be due to a faulty alternator or battery."
+  },
+  {
+    "issue": "Oil pressure warning",
+    "text": "The oil pressure warning indicates low oil pressure. Stop the vehicle immediately to prevent engine damage."
+  },
+  {
+    "issue": "Brake warning light",
+    "text": "The brake warning light indicates a potential issue with the braking system or low brake fluid level."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "model": "Ford Explorer",
+    "text": "The Ford Explorer requires an oil change every 10000 km, tire rotation every 8000 km, and brake inspection every 15000 km. It comes with a standard warranty of 3 years."
+  },
+  {
+    "model": "Ford Mustang",
+    "text": "The Ford Mustang requires an oil change every 7000 km, tire rotation every 6000 km, and brake inspection every 12000 km. It comes with a 3-year warranty."
+  },
+  {
+    "model": "Ford F-150",
+    "text": "The Ford F-150 requires an oil change every 12000 km, tire rotation every 10000 km, and brake inspection every 20000 km. It includes a 5-year warranty."
+  },
+  {
+    "model": "Ford Escape",
+    "text": "The Ford Escape requires an oil change every 9000 km, tire rotation every 7000 km, and brake inspection every 14000 km. It comes with a 3-year warranty."
+  },
+  {
+    "model": "Ford Ranger",
+    "text": "The Ford Ranger requires an oil change every 11000 km, tire rotation every 9000 km, and brake inspection every 18000 km. It comes with a 4-year warranty."
+  }
+]

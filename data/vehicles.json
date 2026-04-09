@@ -1,0 +1,72 @@
+[
+  {
+    "model": "Ford Explorer",
+    "type": "SUV",
+    "seats": 7,
+    "engine": "2.3L EcoBoost",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "features": [
+      "Adaptive Cruise Control",
+      "Lane Keeping Assist",
+      "Blind Spot Monitoring"
+    ],
+    "text": "The Ford Explorer is a spacious 7-seater SUV designed for families, powered by a 2.3L EcoBoost engine with automatic transmission. It includes advanced safety features like adaptive cruise control, lane keeping assist, and blind spot monitoring. It is ideal for long-distance travel and comfort."
+  },
+  {
+    "model": "Ford Mustang",
+    "type": "Coupe",
+    "seats": 4,
+    "engine": "5.0L V8",
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "features": [
+      "Sport Mode",
+      "Traction Control",
+      "Performance Exhaust"
+    ],
+    "text": "The Ford Mustang is a high-performance coupe powered by a 5.0L V8 engine with manual transmission. It is designed for speed and driving pleasure, featuring sport mode, traction control, and performance exhaust for enhanced driving dynamics."
+  },
+  {
+    "model": "Ford F-150",
+    "type": "Pickup",
+    "seats": 5,
+    "engine": "3.5L EcoBoost",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "features": [
+      "Towing Package",
+      "4x4 Drive",
+      "Trailer Assist"
+    ],
+    "text": "The Ford F-150 is a powerful pickup truck built for heavy-duty tasks and towing. It comes with a 3.5L EcoBoost engine, 4x4 drive capability, and trailer assist features, making it suitable for both work and rugged terrains."
+  },
+  {
+    "model": "Ford Escape",
+    "type": "SUV",
+    "seats": 5,
+    "engine": "1.5L EcoBoost",
+    "transmission": "Automatic",
+    "fuel": "Hybrid",
+    "features": [
+      "Fuel Efficiency",
+      "Compact Design",
+      "Parking Assist"
+    ],
+    "text": "The Ford Escape is a compact SUV designed for city driving and small families. It features hybrid fuel efficiency, a 1.5L EcoBoost engine, and smart parking assist, making it easy to maneuver in urban environments."
+  },
+  {
+    "model": "Ford Ranger",
+    "type": "Pickup",
+    "seats": 5,
+    "engine": "2.0L Diesel",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "features": [
+      "Off-road Capability",
+      "Terrain Management",
+      "Towing Support"
+    ],
+    "text": "The Ford Ranger is a midsize pickup truck designed for off-road adventures and utility. It includes a diesel engine, terrain management system, and towing support, making it suitable for challenging environments."
+  }
+]
