@@ -87,5 +87,9 @@ def search(query, index, texts, k=5):
                 continue
 
         results.append(text)
-
+    
+    # Fallback: if intent filtering removed everything, return top semantic results
+    if not results:
+        results = [texts[i] for i in indices[0][:3]]
+    
     return results[:3]

@@ -1,10 +1,17 @@
 from fastapi import FastAPI
-from app.vectorstore import load_index, search
+from app.vectorstore import load_index, search, build_and_save
 from app.ask import ask_question
 from app.recommend import recommend_vehicle
+import os
 
 app = FastAPI()
 
+# Auto-build index if not present (handles fresh clone + Docker)
+if not os.path.exists("vectorstore/index.faiss"):
+    print("🔧 Building FAISS index...")
+    build_and_save()
+    print("✅ Index ready")
+ 
 index, texts = load_index()
 
 
